@@ -1,0 +1,59 @@
+.inventory-page { min-width:0; }
+.inventory-page .page-heading { gap:20px; flex-wrap:wrap; }
+.inventory-page .page-heading h1 { overflow-wrap:anywhere; }
+.inventory-page .page-heading > div { min-width:0; }
+.inventory-page a.btn { text-decoration:none; }
+.inventory-demo { color:#777b8e; font-size:12px; line-height:1.6; margin:16px 0 24px; }
+.inventory-filters { padding:20px; margin-bottom:24px; }
+.inventory-search { display:flex; align-items:center; gap:12px; }
+.inventory-search input { flex:1; min-width:0; }
+.inventory-page input,.inventory-page select,.inventory-page textarea { width:100%; min-width:0; padding:12px; border:1px solid #d8dce8; border-radius:10px; background:rgba(255,255,255,.45); color:inherit; font:inherit; box-shadow:inset 2px 2px 5px #d9ddeb80; }
+.inventory-page input:focus,.inventory-page select:focus,.inventory-page textarea:focus { outline:2px solid #8399c9; outline-offset:2px; }
+.filter-controls { display:flex; flex-wrap:wrap; align-items:end; gap:16px; margin-top:16px; }
+.filter-controls label { flex:1 1 145px; display:flex; flex-direction:column; gap:8px; font-size:12px; min-width:0; }
+.inventory-results { padding:20px; }
+.inventory-desktop { overflow-x:auto; }
+.inventory-desktop table { width:100%; table-layout:fixed; min-width:0; }
+.inventory-desktop td,.inventory-desktop th { white-space:normal; overflow-wrap:anywhere; padding:15px 8px; }
+.inventory-desktop td:first-child { width:22%; }
+.inventory-desktop small,.inventory-card-title small { display:block; margin-top:5px; font-size:11px; font-weight:400; }
+.inventory-desktop a,.inventory-back { color:#5577af; font-size:12px; }
+.inventory-mobile { display:none; }
+.inventory-actions { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.detail-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.detail-section { padding:24px; min-width:0; }
+.detail-section h2,.detail-section legend { font-size:16px; font-weight:650; }
+.detail-section dl { display:flex; flex-direction:column; gap:18px; margin-top:24px; }
+.detail-section dt { font-size:12px; color:#777b8e; margin-bottom:5px; }
+.detail-section dd { margin:0; font-size:14px; overflow-wrap:anywhere; white-space:pre-wrap; }
+.motorcycle-form { display:flex; flex-direction:column; gap:24px; }
+.motorcycle-form fieldset { border:1px solid #ffffffb0; }
+.motorcycle-form legend { padding:0 8px; }
+.motorcycle-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.motorcycle-fields label { display:flex; flex-direction:column; gap:9px; font-size:12px; min-width:0; }
+.motorcycle-fields .field-wide { grid-column:1/-1; }
+.field-error { color:#a33949; font-size:12px; }
+.inventory-page [aria-invalid=true] { border-color:#a33949; }
+.form-actions p { margin-right:auto; font-size:12px; color:#777b8e; }
+.inventory-success { padding:16px; border-radius:12px; background:#e0eee7; color:#437362; margin-bottom:20px; }
+@media(max-width:700px) {
+ .inventory-page .page-heading { align-items:stretch; }
+ .inventory-page .page-heading h1 { font-size:25px; }
+ .inventory-page .page-heading > div { width:100%; }
+ .inventory-filters,.inventory-results,.detail-section { padding:16px; }
+ .inventory-desktop { display:none; }
+ .inventory-mobile { display:flex; flex-direction:column; gap:16px; padding:0; list-style:none; }
+ .inventory-mobile li { padding:16px; min-width:0; }
+ .inventory-card-title { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+ .inventory-card-title h3 { flex:1; min-width:100px; overflow-wrap:anywhere; font-size:14px; }
+ .inventory-mobile dl { display:flex; flex-direction:column; gap:12px; margin:20px 0; font-size:12px; }
+ .inventory-mobile dl > div { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+ .inventory-mobile dt { color:#777b8e; }
+ .inventory-mobile dd { margin:0; overflow-wrap:anywhere; }
+ .inventory-mobile .btn { width:100%; }
+ .detail-grid,.motorcycle-fields { grid-template-columns:minmax(0,1fr); }
+ .inventory-actions { width:100%; }
+ .inventory-actions .btn { flex:1 1 140px; }
+ .form-actions p { width:100%; }
+ .inventory-page .btn { white-space:normal; text-align:center; }
+}
