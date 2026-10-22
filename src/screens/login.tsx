@@ -152,7 +152,7 @@ export function Login() {
         </div>
 
         <span className="login-copyright">
-          MotoDesk — Made for the way you do business.
+          © 2026 MotoDesk · Built by Adeel Akbar
         </span>
       </section>
     </main>
