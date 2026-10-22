@@ -1,6 +1,7 @@
-
 /** @type {import('next').NextConfig} */
 const config = {
+  output: 'export',
+
   async headers() {
     return [{
       source: '/:path*',
