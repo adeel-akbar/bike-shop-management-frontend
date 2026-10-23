@@ -5,6 +5,7 @@ import '../src/styles.css'
 export const metadata: Metadata = {
   title: 'MotoDesk — Dealership workspace',
   description: 'MotoDesk — a considered workspace for your motorcycle dealership. Manage inventory, sales, and business finances.',
+  manifest: '/manifest.json',
 }
 
 export const viewport: Viewport = { themeColor: '#eef1f8' }
