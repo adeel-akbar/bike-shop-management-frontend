@@ -1,7 +1,7 @@
 import { ArrowRight, ArrowUpRight, Bike, CalendarDays, Check, CircleDollarSign, Coins, PackageCheck, Plus, ReceiptText, Tag, Wallet } from 'lucide-react'
 import useSWR from 'swr'
 import { Button, PageHeading, StatCard, StatusBadge, LoadingState, ErrorMessage } from '../components/ui'
-import { formatDate, formatPKR } from '../lib/demo-data'
+import { formatDate, formatPKR } from '../lib/format'
 import { apiRequest } from '../lib/api'
 import { useMotorcycles } from '../lib/motorcycles'
 
