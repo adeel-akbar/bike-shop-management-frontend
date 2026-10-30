@@ -50,6 +50,15 @@ All screenshots use fictional test records. No real customer or shop data is sho
 </p>
 <!-- markdownlint-enable MD033 -->
 
+## Demo
+
+Watch the [MotoDesk demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7521462771964887041/).
+
+The walkthrough shows the mobile interface, from adding a motorcycle
+to recording a sale and generating a PDF receipt.
+
+The demonstration uses fictional data to protect private shop records.
+
 ## Technology Stack
 
 | Area | Technology |
